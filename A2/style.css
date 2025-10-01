@@ -1,0 +1,125 @@
+/* Tag Selectors */
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin: 2px;
+    padding: 2px;
+    color: black;
+    font-weight: bold;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+p {
+    margin: 3px;
+    padding: 3px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Class Selectors */
+
+.flex-container {
+    display: flex;
+}
+
+.header-container {
+    background-color: aliceblue;
+    border-style: none;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+header.flex-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container {
+    background-color: aliceblue;
+    border-style: none;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 10px;
+    color: black;
+}
+
+.footer-container {
+    background-color: aliceblue;
+    border-style: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+footer.flex-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .nav-list li {
+        background-color: aliceblue;
+        border-radius: 6px;
+        display: inline;
+        padding: 15px;
+        margin-right: 20px;
+    }
+
+    .nav-list.flex-container {
+        align-self: start;
+    }
+
+/* ID Selectors */
+
+#copy-notice-section {
+    color: black;
+}

@@ -1,0 +1,52 @@
+/* NO FLEXBOX NOTES */
+
+/*p 
+{
+    color: green;
+}
+
+h2
+{
+    color: red;
+}
+
+.box
+{
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container
+{
+    background-color : lightgray;
+    border : 3px solid black;
+    padding: 20px;
+    margin: 200px;
+    width: 100px;
+}*/
+
+/* FLEX BOX IMPLEMENTED */
+
+p {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+.box-flex {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}

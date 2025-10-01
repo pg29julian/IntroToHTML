@@ -1,0 +1,97 @@
+/* Element Selectors */
+
+body
+{
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+blockquote
+{
+    border-left: 5px solid #ccc;
+    padding-left: 15px;
+    margin-left: 20px;
+}
+
+/* Class Selectors */
+
+.header-container
+{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-container
+{
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-list
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .nav-list li
+    {
+        display: inline;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+.flex-container
+{
+    display: flex;
+}
+
+header.flex-container 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list.flex-container
+{
+    display: flex;
+}
+
+main.flex-container
+{
+    display: flex;
+}
+
+.sidebar 
+{
+    flex: 1;
+}
+
+/* ID Selectors */
+
+#featured-article
+{
+    flex: 2;
+}
+
+#featured-article, #links-section, #testimonials-section
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#featured-article img
+{
+    width: 20%;
+    height: auto;
+}
